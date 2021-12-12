@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Captured Info</title>
+  </head>
+  <body>
+    <div class="container2">
+      <div class="box">
+        <h1>Host</h1>
+        <p id="host">Waiting...</p>
+      </div>
+      <div class="box">
+        <h1>Method</h1>
+        <p id="method">Waiting...</p>
+      </div>
+      <div class="box">
+        <h1>Port</h1>
+        <p id="port">Waiting...</p>
+      </div>
+      <div class="box">
+        <h1>User Agent</h1>
+        <p id="user-agent">Waiting...</p>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/requests.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Electron Proxy Server</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hi!</h1>
+      <p>Your proxy server is running at port <span id="port">PORT</span></p>
+    </div>
+    <script type="text/javascript" src="js/index.js" defer></script>
+  </body>
+</html>

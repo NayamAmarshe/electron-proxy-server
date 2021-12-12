@@ -1,0 +1,9 @@
+#directories
+.http-mitm-proxy/
+bower_components
+node_modules
+dist
+
+#files
+*.tgz
+*.log

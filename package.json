@@ -1,0 +1,19 @@
+{
+  "name": "electron-proxy-server",
+  "version": "1.0.0",
+  "description": "A simple Proxy Server built with ElectronJS",
+  "main": "main.js",
+  "author": "nayamamarshe",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
+  },
+  "devDependencies": {
+    "electron": "^16.0.4"
+  },
+  "dependencies": {
+    "http-mitm-proxy": "^0.9.0",
+    "nodemon": "^2.0.15"
+  }
+}
